@@ -180,14 +180,14 @@ public:
 //        ofSetColor(255,255,255,detectorRed.detected*255);
 //        ofDrawRectangle(0,0,10,padding*0.9);
 
-        ofTranslate(40,ofGetHeight()/2);
+        ofTranslate(40*2,ofGetHeight()/2);
         ofRotate(rotation);
         ofSetColor(255,255,255,detectorGreen.detected*200+40);
-        ofDrawCircle(0, 15, 10);
+        ofDrawCircle(0, 15*2, 10*2);
         ofSetColor(255,255,255,detectorOrange.detected*200+40);
-        ofDrawCircle(15, -10, 10);
+        ofDrawCircle(15*2, -10*2, 10*2);
         ofSetColor(255,255,255,detectorRed.detected*200+40);
-        ofDrawCircle(-15, -10, 10);
+        ofDrawCircle(-15*2, -10*2, 10*2);
 
 //        ofSetColor(255,255,255,10);
 //        ofDrawCircle(0, 0, 30);

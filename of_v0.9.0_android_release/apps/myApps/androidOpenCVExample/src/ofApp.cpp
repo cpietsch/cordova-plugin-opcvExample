@@ -63,7 +63,7 @@ void ofApp::draw(){
 
 	// // detection debug draw
 	// detector.draw();
-	detector.drawHelp();
+    detector.drawHelp();
 
 	// string msg = ofToString((int) ofGetFrameRate()) + " fps";
 	// ofDrawBitmapString(msg, ofGetWidth() - 80, ofGetHeight() - 20);
