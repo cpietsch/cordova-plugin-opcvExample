@@ -15,5 +15,9 @@ void DetectorManager::detectionCallback(int code){
     detectedCodeCount = 0;
     detectedCode = 0;
 
+    detectorRed.clean();
+    detectorOrange.clean();
+    detectorGreen.clean();
+
     cout << "FOUND ERROR CODE " << ofToString(code) << endl;
 }

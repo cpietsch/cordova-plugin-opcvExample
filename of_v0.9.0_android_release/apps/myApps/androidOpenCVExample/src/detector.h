@@ -42,6 +42,13 @@ public:
         if(now == SIZE) now = 0;
     };
 
+    void clean(){
+        for (int i = SIZE-1; i > 0; i--) {
+            buffer[i] = 0;
+            bin[i] = 0;
+        }
+    }
+
     void update(){
         int now = 0;
         int last = 0;
