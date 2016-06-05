@@ -45,3 +45,7 @@ project(':openFrameworks').projectDir = new File(ofRoot + 'libs/openFrameworks')
 
 })
 ```
+
+
+## contribution
+contributed by sami4064 https://github.com/sami4064/cordova-plugin-opcvExample
