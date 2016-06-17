@@ -8,6 +8,7 @@
 ## aftermath 
 - edit this file: `platforms/android/of_v0.9.0_android_release/libs/openFrameworksCompiled/project/android/paths.make`
 - change the path of your android NDK (mine on OSX: `NDK_ROOT=/Users/chris/Library/Android/sdk/ndk-bundle/`)
+- change the gradle url in gradle-wrapper.properties to `distributionUrl=http\://services.gradle.org/distributions/gradle-2.2.1-all.zip`
 
 
 - `settings.gradle` should look like this
@@ -32,6 +33,7 @@ project(':openFrameworks').projectDir = new File(ofRoot + 'libs/openFrameworks')
 - `build.gradle` should have after ```// SUB-PROJECT DEPENDENCIES END``` once  ```compile project(':androidOpenCVExample')``` 
 - make sure `platforms/android/AndroidManifest.xml` should have `android:targetSdkVersion="22"` (at least 22)
 - make a gradle sync for openframeworks to be build
+- you now can test the app
 
 ## js
 - you can call the of app like this
