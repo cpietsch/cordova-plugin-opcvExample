@@ -31,6 +31,7 @@ project(':openFrameworks').projectDir = new File(ofRoot + 'libs/openFrameworks')
 ```
 
 - `build.gradle` should have after ```// SUB-PROJECT DEPENDENCIES END``` once  ```compile project(':androidOpenCVExample')``` 
+- `opcvExample.js` should only define the opcvExample once (remove double lines if it appears after plugin add)
 - make sure `platforms/android/AndroidManifest.xml` should have `android:targetSdkVersion="22"` (at least 22)
 - make a gradle sync for openframeworks to be build
 - you now can test the app
