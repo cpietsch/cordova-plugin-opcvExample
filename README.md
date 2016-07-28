@@ -2,16 +2,16 @@
 
 ## install
 - cordova plugin add https://github.com/cpietsch/cordova-plugin-opcvExample
-- cordova platform remove android
 - cordova platform add android
 
 ## aftermath 
+- open platform/android in android studio 2
 - edit this file: `platforms/android/of_v0.9.0_android_release/libs/openFrameworksCompiled/project/android/paths.make`
 - change the path of your android NDK (mine on OSX: `NDK_ROOT=/Users/chris/Library/Android/sdk/ndk-bundle/`)
 - change the gradle url in gradle-wrapper.properties to `distributionUrl=http\://services.gradle.org/distributions/gradle-2.2.1-all.zip`
 
 
-- `settings.gradle` should look like this
+- in android studio: `settings.gradle` should look like this
 
 ```
 // GENERATED FILE - DO NOT EDIT
